@@ -1,6 +1,7 @@
 # ml-decision-tree
 
-[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Jam-Reut/ml-logistic-regression/HEAD?labpath=ml-decision-tree.ipynb)
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Jam-Reut/ml-decision-tree/HEAD?labpath=decision-tree.ipynb)
+
 
 ## 🚀 Projektbeschreibung
 
