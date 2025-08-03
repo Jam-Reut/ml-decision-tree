@@ -1,12 +1,21 @@
-# ml-decision-tree
+# ML Decision Tree – LendingClub Projekt
 
 [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Jam-Reut/ml-decision-tree/HEAD?labpath=decision-tree.ipynb)
 
 
 ## 🚀 Projektbeschreibung
 
-Dieses Projekt führt eine lml-decision-tree auf dem Werbedatensatz durch.  
-Das Ziel ist, vorherzusagen, ob ein Nutzer auf eine Anzeige klickt oder nicht.
+In diesem Projekt entwickeln wir ein Machine-Learning-Modell (Entscheidungsbaum und Random Forest), um vorherzusagen, ob ein Kreditnehmer seinen Kredit **zurückzahlen wird oder nicht**. 
+Die Daten stammen von [LendingClub.com](https://www.lendingclub.com/), einem Marktplatz für Kredite zwischen Privatpersonen.
+Wir nutzen Daten von **2007 bis 2010**, also aus der Zeit vor dem Börsengang des Unternehmens.
+Verwendet wird die Datei `loan_data.csv` mit Merkmalen wie Kredit-Zweck, FICO-Score, Zinsrate, Einkommen u. v. m.
+
+## 📁 Projektstruktur
+
+ml-decision-tree/
+├── loan_data.csv
+├── decision-tree.ipynb
+└── README.md
 
 ### 🔧 Ausführen
 
@@ -17,6 +26,13 @@ Das Ziel ist, vorherzusagen, ob ein Nutzer auf eine Anzeige klickt oder nicht.
 
 ### 🎯 Ergebnis
 
-- Modelltraining mit Scikit-Learn
-- Visualisierung mit Matplotlib und Seaborn
-- Klassifikationsergebnisse und Metriken (Accuracy, Confusion Matrix)
+- Datenvisualisierung der Merkmale
+- Aufteilung in Trainings- und Testdaten
+- Training eines Decision-Tree-Modells
+- Visualisierung des Baumes
+- Vorhersage und Bewertung mittels Konfusionsmatrix und Genauigkeit
+- Binäre Klassifikation: Vorhersage, ob ein Kredit zurückgezahlt wurde (`paid.back.loan` = yes/no).
+
+
+
+
