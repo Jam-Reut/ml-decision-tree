@@ -13,9 +13,9 @@ Verwendet wird die Datei `loan_data.csv` mit Merkmalen wie Kredit-Zweck, FICO-Sc
 ## 📁 Projektstruktur
 
 ml-decision-tree/
-├── loan_data.csv
-├── decision-tree.ipynb
-└── README.md
+- decision-tree.ipynb
+- loan_data.csv
+- README.md
 
 ### 🔧 Ausführen
 
